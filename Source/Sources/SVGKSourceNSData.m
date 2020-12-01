@@ -24,7 +24,7 @@
 	}
 	else
 	{
-		DDLogError(@"Cannot construct a relative link for this SVGKSource; it was created from anonymous NSData with no source URL provided. Source = %@", self);
+		NSLog(@"Cannot construct a relative link for this SVGKSource; it was created from anonymous NSData with no source URL provided. Source = %@", self);
 		return nil;
 	}
 }
